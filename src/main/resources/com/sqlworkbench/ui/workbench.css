@@ -1,0 +1,36 @@
+.code-area .text {
+    -fx-font-family: "Consolas";
+    -fx-font-size: 13px;
+}
+
+.keyword {
+    -fx-fill: #1f4ea8;
+    -fx-font-weight: bold;
+}
+
+.string {
+    -fx-fill: #2e7d32;
+}
+
+.number {
+    -fx-fill: #b35900;
+}
+
+.comment {
+    -fx-fill: #8a8a8a;
+    -fx-font-style: italic;
+}
+
+.lineno {
+    -fx-background-color: #f3f3f3;
+    -fx-text-fill: #9a9a9a;
+}
+
+.pane-title {
+    -fx-font-weight: bold;
+    -fx-padding: 6 8 4 8;
+}
+
+.info-error {
+    -fx-text-fill: #b00020;
+}
